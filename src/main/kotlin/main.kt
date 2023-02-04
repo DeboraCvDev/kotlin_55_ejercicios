@@ -8,5 +8,5 @@ fun main() {
     val segundoCateto: Int = readLine()!!.toInt()
     val calcularHipotenusa: Int =
         sqrt((primerCateto.toDouble() * primerCateto) * (segundoCateto * segundoCateto)).toInt()
-    println(La hipotenusa es:"$calcularHipotenusa")
+    println("La hipotenusa es:$calcularHipotenusa")
 }
